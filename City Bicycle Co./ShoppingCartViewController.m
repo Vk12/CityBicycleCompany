@@ -21,6 +21,10 @@
 
 }
 
+- (IBAction)onTapApplePayButton:(UIButton *)sender
+{
+    
+}
 
 
 /*

@@ -764,6 +764,9 @@
                                 <state key="normal" image="applePay">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="onTapApplePayButton:" destination="OIG-ga-egE" eventType="touchUpInside" id="CIo-B7-GQR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

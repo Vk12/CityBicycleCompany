@@ -60,14 +60,11 @@
 
 - (void) refreshDetail
 {
-    PFQuery *query = [PFQuery queryWithClassName:@"Photo"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (error) {
-            NSLog(@"Ur nan m8");
-        }else{
-            self.bicycleImagesArray = objects;
-            [self.productCollectionView reloadData];
-        }
+    PFQuery *photoQuery = [Photo query];
+    [photoQuery whereKey:@"objectId" equalTo:@"7EVNkO14kE"];
+    [photoQuery findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        self.bicycleImagesArray = objects;
+        [self.productCollectionView reloadData];
     }];
 }
 
