@@ -76,6 +76,7 @@
 		39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City-Logo-Tagline.ai"; sourceTree = "<group>"; };
 		39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City-Logo-Tagline(1).png"; sourceTree = "<group>"; };
 		FBF1F6A41A2561E000218704 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		FBF1F6A61A25761600218704 /* City Bicycle Co..entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "City Bicycle Co..entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 		39619D631A23E02600AA38DA /* City Bicycle Co. */ = {
 			isa = PBXGroup;
 			children = (
+				FBF1F6A61A25761600218704 /* City Bicycle Co..entitlements */,
 				39619D681A23E02600AA38DA /* AppDelegate.h */,
 				39619D691A23E02600AA38DA /* AppDelegate.m */,
 				39619D6B1A23E02600AA38DA /* ProductViewController.h */,
@@ -227,6 +229,12 @@
 				TargetAttributes = {
 					39619D601A23E02600AA38DA = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = CMJ2XZ8S23;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 					39619D791A23E02600AA38DA = {
 						CreatedOnToolsVersion = 6.1;
@@ -416,9 +424,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "City Bicycle Co./City Bicycle Co..entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,9 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "City Bicycle Co./City Bicycle Co..entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
