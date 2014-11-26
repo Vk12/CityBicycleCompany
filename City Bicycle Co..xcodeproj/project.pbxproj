@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		39619D671A23E02600AA38DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D661A23E02600AA38DA /* main.m */; };
 		39619D6A1A23E02600AA38DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D691A23E02600AA38DA /* AppDelegate.m */; };
-		39619D6D1A23E02600AA38DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D6C1A23E02600AA38DA /* ViewController.m */; };
+		39619D6D1A23E02600AA38DA /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D6C1A23E02600AA38DA /* ProductViewController.m */; };
 		39619D701A23E02600AA38DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39619D6E1A23E02600AA38DA /* Main.storyboard */; };
 		39619D721A23E02600AA38DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39619D711A23E02600AA38DA /* Images.xcassets */; };
 		39619D751A23E02600AA38DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39619D731A23E02600AA38DA /* LaunchScreen.xib */; };
 		39619D811A23E02600AA38DA /* City_Bicycle_Co_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D801A23E02600AA38DA /* City_Bicycle_Co_Tests.m */; };
+		39619D8B1A23E4F300AA38DA /* citylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 39619D8A1A23E4F300AA38DA /* citylogo.png */; };
+		39619D911A23E79D00AA38DA /* shopping_cart_empty-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 39619D901A23E79D00AA38DA /* shopping_cart_empty-50.png */; };
+		39619D941A23EE6300AA38DA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D931A23EE6300AA38DA /* ProfileViewController.m */; };
+		39619D971A23F7F800AA38DA /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39619D961A23F7F800AA38DA /* AdminViewController.m */; };
+		3977EEA01A2554CE0041184B /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3977EE9F1A2554CE0041184B /* ShoppingCartViewController.m */; };
+		39BB17B41A240E9600AA846C /* WheelSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17B31A240E9600AA846C /* WheelSetViewController.m */; };
+		39BB17B71A240F1600AA846C /* HatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17B61A240F1600AA846C /* HatDetailViewController.m */; };
+		39BB17BA1A240F4500AA846C /* ShirtsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17B91A240F4500AA846C /* ShirtsViewController.m */; };
+		39BB17C01A241D8200AA846C /* AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17BF1A241D8200AA846C /* AccessoriesViewController.m */; };
+		39BB17C21A24203100AA846C /* settings18.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C11A24203100AA846C /* settings18.png */; };
+		39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17C41A24242E00AA846C /* BicycleViewController.m */; };
+		39BB17C71A24531300AA846C /* City-Logo-Tagline.ai in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */; };
+		39BB17C91A24540500AA846C /* City-Logo-Tagline(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +45,35 @@
 		39619D661A23E02600AA38DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39619D681A23E02600AA38DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39619D691A23E02600AA38DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39619D6B1A23E02600AA38DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39619D6C1A23E02600AA38DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39619D6B1A23E02600AA38DA /* ProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		39619D6C1A23E02600AA38DA /* ProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		39619D6F1A23E02600AA38DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39619D711A23E02600AA38DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39619D741A23E02600AA38DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		39619D7A1A23E02600AA38DA /* City Bicycle Co.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City Bicycle Co.Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39619D7F1A23E02600AA38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39619D801A23E02600AA38DA /* City_Bicycle_Co_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_Bicycle_Co_Tests.m; sourceTree = "<group>"; };
+		39619D8A1A23E4F300AA38DA /* citylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citylogo.png; sourceTree = "<group>"; };
+		39619D901A23E79D00AA38DA /* shopping_cart_empty-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping_cart_empty-50.png"; sourceTree = "<group>"; };
+		39619D921A23EE6300AA38DA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		39619D931A23EE6300AA38DA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		39619D951A23F7F800AA38DA /* AdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminViewController.h; path = ../AdminViewController.h; sourceTree = "<group>"; };
+		39619D961A23F7F800AA38DA /* AdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminViewController.m; path = ../AdminViewController.m; sourceTree = "<group>"; };
+		3977EE9E1A2554CE0041184B /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		3977EE9F1A2554CE0041184B /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		39BB17B21A240E9600AA846C /* WheelSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelSetViewController.h; sourceTree = "<group>"; };
+		39BB17B31A240E9600AA846C /* WheelSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelSetViewController.m; sourceTree = "<group>"; };
+		39BB17B51A240F1600AA846C /* HatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HatDetailViewController.h; sourceTree = "<group>"; };
+		39BB17B61A240F1600AA846C /* HatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HatDetailViewController.m; sourceTree = "<group>"; };
+		39BB17B81A240F4500AA846C /* ShirtsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShirtsViewController.h; path = ../ShirtsViewController.h; sourceTree = "<group>"; };
+		39BB17B91A240F4500AA846C /* ShirtsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShirtsViewController.m; path = ../ShirtsViewController.m; sourceTree = "<group>"; };
+		39BB17BE1A241D8200AA846C /* AccessoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoriesViewController.h; sourceTree = "<group>"; };
+		39BB17BF1A241D8200AA846C /* AccessoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoriesViewController.m; sourceTree = "<group>"; };
+		39BB17C11A24203100AA846C /* settings18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings18.png; sourceTree = "<group>"; };
+		39BB17C31A24242E00AA846C /* BicycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleViewController.h; sourceTree = "<group>"; };
+		39BB17C41A24242E00AA846C /* BicycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
+		39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City-Logo-Tagline.ai"; sourceTree = "<group>"; };
+		39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City-Logo-Tagline(1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,7 @@
 		39619D581A23E02500AA38DA = {
 			isa = PBXGroup;
 			children = (
+				39619D6E1A23E02600AA38DA /* Main.storyboard */,
 				39619D631A23E02600AA38DA /* City Bicycle Co. */,
 				39619D7D1A23E02600AA38DA /* City Bicycle Co.Tests */,
 				39619D621A23E02600AA38DA /* Products */,
@@ -83,10 +118,30 @@
 			children = (
 				39619D681A23E02600AA38DA /* AppDelegate.h */,
 				39619D691A23E02600AA38DA /* AppDelegate.m */,
-				39619D6B1A23E02600AA38DA /* ViewController.h */,
-				39619D6C1A23E02600AA38DA /* ViewController.m */,
-				39619D6E1A23E02600AA38DA /* Main.storyboard */,
+				39619D6B1A23E02600AA38DA /* ProductViewController.h */,
+				39619D6C1A23E02600AA38DA /* ProductViewController.m */,
+				39619D921A23EE6300AA38DA /* ProfileViewController.h */,
+				39619D931A23EE6300AA38DA /* ProfileViewController.m */,
+				39619D951A23F7F800AA38DA /* AdminViewController.h */,
+				39619D961A23F7F800AA38DA /* AdminViewController.m */,
+				39BB17B21A240E9600AA846C /* WheelSetViewController.h */,
+				39BB17B31A240E9600AA846C /* WheelSetViewController.m */,
+				39BB17B51A240F1600AA846C /* HatDetailViewController.h */,
+				39BB17B61A240F1600AA846C /* HatDetailViewController.m */,
+				39BB17B81A240F4500AA846C /* ShirtsViewController.h */,
+				39BB17B91A240F4500AA846C /* ShirtsViewController.m */,
+				39BB17BE1A241D8200AA846C /* AccessoriesViewController.h */,
+				39BB17BF1A241D8200AA846C /* AccessoriesViewController.m */,
+				39BB17C31A24242E00AA846C /* BicycleViewController.h */,
+				39BB17C41A24242E00AA846C /* BicycleViewController.m */,
+				3977EE9E1A2554CE0041184B /* ShoppingCartViewController.h */,
+				3977EE9F1A2554CE0041184B /* ShoppingCartViewController.m */,
 				39619D711A23E02600AA38DA /* Images.xcassets */,
+				39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */,
+				39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */,
+				39BB17C11A24203100AA846C /* settings18.png */,
+				39619D8A1A23E4F300AA38DA /* citylogo.png */,
+				39619D901A23E79D00AA38DA /* shopping_cart_empty-50.png */,
 				39619D731A23E02600AA38DA /* LaunchScreen.xib */,
 				39619D641A23E02600AA38DA /* Supporting Files */,
 			);
@@ -199,9 +254,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39619D911A23E79D00AA38DA /* shopping_cart_empty-50.png in Resources */,
+				39BB17C71A24531300AA846C /* City-Logo-Tagline.ai in Resources */,
 				39619D701A23E02600AA38DA /* Main.storyboard in Resources */,
+				39619D8B1A23E4F300AA38DA /* citylogo.png in Resources */,
 				39619D751A23E02600AA38DA /* LaunchScreen.xib in Resources */,
+				39BB17C91A24540500AA846C /* City-Logo-Tagline(1).png in Resources */,
 				39619D721A23E02600AA38DA /* Images.xcassets in Resources */,
+				39BB17C21A24203100AA846C /* settings18.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +279,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39619D6D1A23E02600AA38DA /* ViewController.m in Sources */,
+				39BB17B71A240F1600AA846C /* HatDetailViewController.m in Sources */,
+				39619D6D1A23E02600AA38DA /* ProductViewController.m in Sources */,
 				39619D6A1A23E02600AA38DA /* AppDelegate.m in Sources */,
+				39619D971A23F7F800AA38DA /* AdminViewController.m in Sources */,
+				39619D941A23EE6300AA38DA /* ProfileViewController.m in Sources */,
+				39BB17BA1A240F4500AA846C /* ShirtsViewController.m in Sources */,
+				39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */,
 				39619D671A23E02600AA38DA /* main.m in Sources */,
+				3977EEA01A2554CE0041184B /* ShoppingCartViewController.m in Sources */,
+				39BB17B41A240E9600AA846C /* WheelSetViewController.m in Sources */,
+				39BB17C01A241D8200AA846C /* AccessoriesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +318,7 @@
 				39619D6F1A23E02600AA38DA /* Base */,
 			);
 			name = Main.storyboard;
+			path = "City Bicycle Co.";
 			sourceTree = "<group>";
 		};
 		39619D731A23E02600AA38DA /* LaunchScreen.xib */ = {
@@ -412,6 +481,7 @@
 				39619D861A23E02600AA38DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39619D871A23E02600AA38DA /* Build configuration list for PBXNativeTarget "City Bicycle Co.Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +490,7 @@
 				39619D891A23E02600AA38DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

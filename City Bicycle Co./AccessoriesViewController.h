@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AccessoriesViewController.h
 //  City Bicycle Co.
 //
 //  Created by Vala Kohnechi on 11/24/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AccessoriesViewController : UIViewController
 
 @end
-
