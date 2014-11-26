@@ -27,6 +27,9 @@
 		39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17C41A24242E00AA846C /* BicycleViewController.m */; };
 		39BB17C71A24531300AA846C /* City-Logo-Tagline.ai in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */; };
 		39BB17C91A24540500AA846C /* City-Logo-Tagline(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */; };
+		FBD4B06C1A26556500A46759 /* STPBankAccountFunctionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7311A25888B00218704 /* STPBankAccountFunctionalTest.m */; };
+		FBD4B06D1A26556E00A46759 /* STPCardFunctionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7331A25888B00218704 /* STPCardFunctionalTest.m */; };
+		FBD4B0711A265C8F00A46759 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD4B0701A265C8F00A46759 /* Test.m */; };
 		FBF1F6A51A2561E000218704 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1F6A41A2561E000218704 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FBF1F73B1A25888B00218704 /* .clang-format in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F6A81A25888A00218704 /* .clang-format */; };
 		FBF1F73C1A25888B00218704 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F6A91A25888A00218704 /* .gitignore */; };
@@ -104,11 +107,8 @@
 		FBF1F7841A25888B00218704 /* Stripe.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F72A1A25888B00218704 /* Stripe.podspec */; };
 		FBF1F7851A25888B00218704 /* Stripe.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F72E1A25888B00218704 /* Stripe.xcworkspace */; };
 		FBF1F7861A25888B00218704 /* STPAPIConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7301A25888B00218704 /* STPAPIConnectionTest.m */; };
-		FBF1F7871A25888B00218704 /* STPBankAccountFunctionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7311A25888B00218704 /* STPBankAccountFunctionalTest.m */; };
 		FBF1F7881A25888B00218704 /* STPBankAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7321A25888B00218704 /* STPBankAccountTest.m */; };
-		FBF1F7891A25888B00218704 /* STPCardFunctionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7331A25888B00218704 /* STPCardFunctionalTest.m */; };
 		FBF1F78A1A25888B00218704 /* STPCardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7341A25888B00218704 /* STPCardTest.m */; };
-		FBF1F78B1A25888B00218704 /* STPCertTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7351A25888B00218704 /* STPCertTest.m */; };
 		FBF1F78C1A25888B00218704 /* STPTokenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF1F7361A25888B00218704 /* STPTokenTest.m */; };
 		FBF1F78D1A25888B00218704 /* StripeTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F7381A25888B00218704 /* StripeTest-Info.plist */; };
 		FBF1F78E1A25888B00218704 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = FBF1F73A1A25888B00218704 /* VERSION */; };
@@ -189,6 +189,8 @@
 		39BB17C41A24242E00AA846C /* BicycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
 		39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City-Logo-Tagline.ai"; sourceTree = "<group>"; };
 		39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City-Logo-Tagline(1).png"; sourceTree = "<group>"; };
+		FBD4B06F1A265C8F00A46759 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = "../stripe-ios/StripeTest/Test.h"; sourceTree = "<group>"; };
+		FBD4B0701A265C8F00A46759 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = "../stripe-ios/StripeTest/Test.m"; sourceTree = "<group>"; };
 		FBF1F6A41A2561E000218704 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		FBF1F6A61A25761600218704 /* City Bicycle Co..entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "City Bicycle Co..entitlements"; sourceTree = "<group>"; };
 		FBF1F6A81A25888A00218704 /* .clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
@@ -307,7 +309,7 @@
 		FBF1F7311A25888B00218704 /* STPBankAccountFunctionalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPBankAccountFunctionalTest.m; sourceTree = "<group>"; };
 		FBF1F7321A25888B00218704 /* STPBankAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPBankAccountTest.m; sourceTree = "<group>"; };
 		FBF1F7331A25888B00218704 /* STPCardFunctionalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCardFunctionalTest.m; sourceTree = "<group>"; };
-		FBF1F7341A25888B00218704 /* STPCardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCardTest.m; sourceTree = "<group>"; };
+		FBF1F7341A25888B00218704 /* STPCardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCardTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FBF1F7351A25888B00218704 /* STPCertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCertTest.m; sourceTree = "<group>"; };
 		FBF1F7361A25888B00218704 /* STPTokenTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTokenTest.m; sourceTree = "<group>"; };
 		FBF1F7381A25888B00218704 /* StripeTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "StripeTest-Info.plist"; sourceTree = "<group>"; };
@@ -342,9 +344,6 @@
 		39619D581A23E02500AA38DA = {
 			isa = PBXGroup;
 			children = (
-				FBF1F79D1A2588CA00218704 /* Security.framework */,
-				FBF1F79B1A2588C300218704 /* Foundation.framework */,
-				FBF1F6A71A25888A00218704 /* stripe-ios */,
 				FBF1F6A41A2561E000218704 /* PassKit.framework */,
 				39619D6E1A23E02600AA38DA /* Main.storyboard */,
 				39619D631A23E02600AA38DA /* City Bicycle Co. */,
@@ -386,6 +385,8 @@
 				39BB17C41A24242E00AA846C /* BicycleViewController.m */,
 				3977EE9E1A2554CE0041184B /* ShoppingCartViewController.h */,
 				3977EE9F1A2554CE0041184B /* ShoppingCartViewController.m */,
+				FBD4B06F1A265C8F00A46759 /* Test.h */,
+				FBD4B0701A265C8F00A46759 /* Test.m */,
 				39619D711A23E02600AA38DA /* Images.xcassets */,
 				39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */,
 				39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */,
@@ -401,6 +402,7 @@
 		39619D641A23E02600AA38DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBF1F79F1A2589D500218704 /* ApplePay / Stripe Supporting Files */,
 				39619D651A23E02600AA38DA /* Info.plist */,
 				39619D661A23E02600AA38DA /* main.m */,
 			);
@@ -715,6 +717,17 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBF1F79F1A2589D500218704 /* ApplePay / Stripe Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1F79D1A2588CA00218704 /* Security.framework */,
+				FBF1F79B1A2588C300218704 /* Foundation.framework */,
+				FBF1F6A71A25888A00218704 /* stripe-ios */,
+			);
+			name = "ApplePay / Stripe Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -910,13 +923,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD4B06D1A26556E00A46759 /* STPCardFunctionalTest.m in Sources */,
+				FBD4B06C1A26556500A46759 /* STPBankAccountFunctionalTest.m in Sources */,
 				FBF1F7751A25888B00218704 /* ViewController.m in Sources */,
 				FBF1F7801A25888B00218704 /* STPToken.m in Sources */,
 				39BB17B71A240F1600AA846C /* HatDetailViewController.m in Sources */,
 				FBF1F7401A25888B00218704 /* PKPayment+STPTestKeys.m in Sources */,
-				FBF1F7871A25888B00218704 /* STPBankAccountFunctionalTest.m in Sources */,
 				39619D6D1A23E02600AA38DA /* ProductViewController.m in Sources */,
-				FBF1F7891A25888B00218704 /* STPCardFunctionalTest.m in Sources */,
 				FBF1F7541A25888B00218704 /* PTKUSAddressZip.m in Sources */,
 				FBF1F77F1A25888B00218704 /* STPCard.m in Sources */,
 				39619D6A1A23E02600AA38DA /* AppDelegate.m in Sources */,
@@ -931,9 +944,9 @@
 				FBF1F7811A25888B00218704 /* STPUtils.m in Sources */,
 				FBF1F7551A25888B00218704 /* PTKView.m in Sources */,
 				FBF1F7501A25888B00218704 /* PTKCardExpiry.m in Sources */,
+				FBD4B0711A265C8F00A46759 /* Test.m in Sources */,
 				FBF1F7701A25888B00218704 /* main.m in Sources */,
 				FBF1F7721A25888B00218704 /* ShippingManager.m in Sources */,
-				FBF1F78B1A25888B00218704 /* STPCertTest.m in Sources */,
 				39BB17BA1A240F4500AA846C /* ShirtsViewController.m in Sources */,
 				FBF1F7711A25888B00218704 /* PaymentViewController.m in Sources */,
 				FBF1F77C1A25888B00218704 /* Stripe+ApplePay.m in Sources */,
@@ -1047,6 +1060,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1110,10 +1124,7 @@
 				CODE_SIGN_ENTITLEMENTS = "City Bicycle Co./City Bicycle Co..entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/stripe-ios/Example",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1128,10 +1139,7 @@
 				CODE_SIGN_ENTITLEMENTS = "City Bicycle Co./City Bicycle Co..entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/stripe-ios/Example",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1146,6 +1154,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1165,6 +1175,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "City Bicycle Co.Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
