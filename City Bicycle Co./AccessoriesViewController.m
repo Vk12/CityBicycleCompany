@@ -9,7 +9,7 @@
 #import "AccessoriesViewController.h"
 
 @interface AccessoriesViewController ()
-<UICollectionViewDelegate,UICollectionViewDataSource>
+<UICollectionViewDelegate,UICollectionViewDataSource,UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UIButton *addToCart;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *widthLayOutConstraint;
