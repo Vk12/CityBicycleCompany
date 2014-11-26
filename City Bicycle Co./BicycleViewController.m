@@ -8,9 +8,18 @@
 
 #import "BicycleViewController.h"
 
-@interface BicycleViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface BicycleViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UIButton *addButton;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *widthLayOutConstraint;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *sizeSegmentedControl;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *rearBreakSegmentedControl;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *wheelSetColorSegmentedControl;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *extraWheelsSegmentedControl;
+@property (strong, nonatomic) IBOutlet UITextField *quantityTextField;
 
 @end
 
@@ -18,9 +27,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    self.widthLayOutConstraint.constant = self.scrollView.frame.size.width;
+}
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return 0;
