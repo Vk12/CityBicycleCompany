@@ -45,6 +45,9 @@
 		39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17C41A24242E00AA846C /* BicycleViewController.m */; };
 		39BB17C71A24531300AA846C /* City-Logo-Tagline.ai in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */; };
 		39BB17C91A24540500AA846C /* City-Logo-Tagline(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */; };
+		39DE83CB1A26446900BB47FB /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE83CA1A26446900BB47FB /* Bicycle.m */; };
+		39DE83D41A2649D900BB47FB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE83D31A2649D900BB47FB /* Photo.m */; };
+		39DE84091A2669ED00BB47FB /* BicycleCollectionViewCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE84081A2669ED00BB47FB /* BicycleCollectionViewCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +79,7 @@
 		395F07541A257CF400736297 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		395F07551A257CF400736297 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		395F07561A257CF400736297 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		39619D611A23E02600AA38DA /* City Bicycle Co..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Bicycle Co..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39619D611A23E02600AA38DA /* CityBicycleCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBicycleCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39619D651A23E02600AA38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39619D661A23E02600AA38DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39619D681A23E02600AA38DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,7 +89,7 @@
 		39619D6F1A23E02600AA38DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39619D711A23E02600AA38DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39619D741A23E02600AA38DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		39619D7A1A23E02600AA38DA /* City Bicycle Co.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City Bicycle Co.Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39619D7A1A23E02600AA38DA /* CityBicycleCoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBicycleCoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39619D7F1A23E02600AA38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39619D801A23E02600AA38DA /* City_Bicycle_Co_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City_Bicycle_Co_Tests.m; sourceTree = "<group>"; };
 		39619D8A1A23E4F300AA38DA /* citylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citylogo.png; sourceTree = "<group>"; };
@@ -110,6 +113,12 @@
 		39BB17C41A24242E00AA846C /* BicycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
 		39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City-Logo-Tagline.ai"; sourceTree = "<group>"; };
 		39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City-Logo-Tagline(1).png"; sourceTree = "<group>"; };
+		39DE83C91A26446900BB47FB /* Bicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		39DE83CA1A26446900BB47FB /* Bicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
+		39DE83D21A2649D900BB47FB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		39DE83D31A2649D900BB47FB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		39DE84071A2669ED00BB47FB /* BicycleCollectionViewCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleCollectionViewCustomCell.h; sourceTree = "<group>"; };
+		39DE84081A2669ED00BB47FB /* BicycleCollectionViewCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleCollectionViewCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +207,10 @@
 		39619D581A23E02500AA38DA = {
 			isa = PBXGroup;
 			children = (
+				39DE83D21A2649D900BB47FB /* Photo.h */,
+				39DE83D31A2649D900BB47FB /* Photo.m */,
+				39DE83C91A26446900BB47FB /* Bicycle.h */,
+				39DE83CA1A26446900BB47FB /* Bicycle.m */,
 				39619D6E1A23E02600AA38DA /* Main.storyboard */,
 				39619D631A23E02600AA38DA /* City Bicycle Co. */,
 				39619D7D1A23E02600AA38DA /* City Bicycle Co.Tests */,
@@ -208,8 +221,8 @@
 		39619D621A23E02600AA38DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39619D611A23E02600AA38DA /* City Bicycle Co..app */,
-				39619D7A1A23E02600AA38DA /* City Bicycle Co.Tests.xctest */,
+				39619D611A23E02600AA38DA /* CityBicycleCo.app */,
+				39619D7A1A23E02600AA38DA /* CityBicycleCoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,6 +250,8 @@
 				39BB17C41A24242E00AA846C /* BicycleViewController.m */,
 				3977EE9E1A2554CE0041184B /* ShoppingCartViewController.h */,
 				3977EE9F1A2554CE0041184B /* ShoppingCartViewController.m */,
+				39DE84071A2669ED00BB47FB /* BicycleCollectionViewCustomCell.h */,
+				39DE84081A2669ED00BB47FB /* BicycleCollectionViewCustomCell.m */,
 				39619D731A23E02600AA38DA /* LaunchScreen.xib */,
 				39619D711A23E02600AA38DA /* Images.xcassets */,
 				395F075C1A257D5F00736297 /* images */,
@@ -275,9 +290,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39619D601A23E02600AA38DA /* City Bicycle Co. */ = {
+		39619D601A23E02600AA38DA /* CityBicycleCo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39619D841A23E02600AA38DA /* Build configuration list for PBXNativeTarget "City Bicycle Co." */;
+			buildConfigurationList = 39619D841A23E02600AA38DA /* Build configuration list for PBXNativeTarget "CityBicycleCo" */;
 			buildPhases = (
 				39619D5D1A23E02600AA38DA /* Sources */,
 				39619D5E1A23E02600AA38DA /* Frameworks */,
@@ -287,14 +302,14 @@
 			);
 			dependencies = (
 			);
-			name = "City Bicycle Co.";
+			name = CityBicycleCo;
 			productName = "City Bicycle Co.";
-			productReference = 39619D611A23E02600AA38DA /* City Bicycle Co..app */;
+			productReference = 39619D611A23E02600AA38DA /* CityBicycleCo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39619D791A23E02600AA38DA /* City Bicycle Co.Tests */ = {
+		39619D791A23E02600AA38DA /* CityBicycleCoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39619D871A23E02600AA38DA /* Build configuration list for PBXNativeTarget "City Bicycle Co.Tests" */;
+			buildConfigurationList = 39619D871A23E02600AA38DA /* Build configuration list for PBXNativeTarget "CityBicycleCoTests" */;
 			buildPhases = (
 				39619D761A23E02600AA38DA /* Sources */,
 				39619D771A23E02600AA38DA /* Frameworks */,
@@ -305,9 +320,9 @@
 			dependencies = (
 				39619D7C1A23E02600AA38DA /* PBXTargetDependency */,
 			);
-			name = "City Bicycle Co.Tests";
+			name = CityBicycleCoTests;
 			productName = "City Bicycle Co.Tests";
-			productReference = 39619D7A1A23E02600AA38DA /* City Bicycle Co.Tests.xctest */;
+			productReference = 39619D7A1A23E02600AA38DA /* CityBicycleCoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -328,7 +343,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 39619D5C1A23E02500AA38DA /* Build configuration list for PBXProject "City Bicycle Co." */;
+			buildConfigurationList = 39619D5C1A23E02500AA38DA /* Build configuration list for PBXProject "CityBicycleCo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -341,8 +356,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39619D601A23E02600AA38DA /* City Bicycle Co. */,
-				39619D791A23E02600AA38DA /* City Bicycle Co.Tests */,
+				39619D601A23E02600AA38DA /* CityBicycleCo */,
+				39619D791A23E02600AA38DA /* CityBicycleCoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,11 +394,14 @@
 			files = (
 				39BB17B71A240F1600AA846C /* HatDetailViewController.m in Sources */,
 				39619D6D1A23E02600AA38DA /* ProductViewController.m in Sources */,
+				39DE83D41A2649D900BB47FB /* Photo.m in Sources */,
 				39619D6A1A23E02600AA38DA /* AppDelegate.m in Sources */,
 				39619D971A23F7F800AA38DA /* AdminViewController.m in Sources */,
 				39619D941A23EE6300AA38DA /* ProfileViewController.m in Sources */,
 				39BB17BA1A240F4500AA846C /* ShirtsViewController.m in Sources */,
 				39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */,
+				39DE83CB1A26446900BB47FB /* Bicycle.m in Sources */,
+				39DE84091A2669ED00BB47FB /* BicycleCollectionViewCustomCell.m in Sources */,
 				39619D671A23E02600AA38DA /* main.m in Sources */,
 				3977EEA01A2554CE0041184B /* ShoppingCartViewController.m in Sources */,
 				39BB17B41A240E9600AA846C /* WheelSetViewController.m in Sources */,
@@ -404,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		39619D7C1A23E02600AA38DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39619D601A23E02600AA38DA /* City Bicycle Co. */;
+			target = 39619D601A23E02600AA38DA /* CityBicycleCo */;
 			targetProxy = 39619D7B1A23E02600AA38DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -516,7 +534,7 @@
 				);
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CityBicycleCo;
 			};
 			name = Debug;
 		};
@@ -530,7 +548,7 @@
 				);
 				INFOPLIST_FILE = "City Bicycle Co./Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CityBicycleCo;
 			};
 			name = Release;
 		};
@@ -548,7 +566,7 @@
 				);
 				INFOPLIST_FILE = "City Bicycle Co.Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CityBicycleCoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/City Bicycle Co..app/City Bicycle Co.";
 			};
 			name = Debug;
@@ -563,7 +581,7 @@
 				);
 				INFOPLIST_FILE = "City Bicycle Co.Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CityBicycleCoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/City Bicycle Co..app/City Bicycle Co.";
 			};
 			name = Release;
@@ -571,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39619D5C1A23E02500AA38DA /* Build configuration list for PBXProject "City Bicycle Co." */ = {
+		39619D5C1A23E02500AA38DA /* Build configuration list for PBXProject "CityBicycleCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39619D821A23E02600AA38DA /* Debug */,
@@ -580,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39619D841A23E02600AA38DA /* Build configuration list for PBXNativeTarget "City Bicycle Co." */ = {
+		39619D841A23E02600AA38DA /* Build configuration list for PBXNativeTarget "CityBicycleCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39619D851A23E02600AA38DA /* Debug */,
@@ -589,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39619D871A23E02600AA38DA /* Build configuration list for PBXNativeTarget "City Bicycle Co.Tests" */ = {
+		39619D871A23E02600AA38DA /* Build configuration list for PBXNativeTarget "CityBicycleCoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39619D881A23E02600AA38DA /* Debug */,
