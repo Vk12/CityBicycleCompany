@@ -27,6 +27,7 @@
 		39BB17C51A24242E00AA846C /* BicycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB17C41A24242E00AA846C /* BicycleViewController.m */; };
 		39BB17C71A24531300AA846C /* City-Logo-Tagline.ai in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */; };
 		39BB17C91A24540500AA846C /* City-Logo-Tagline(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */; };
+		FBF1F6A51A2561E000218704 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1F6A41A2561E000218704 /* PassKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		39BB17C41A24242E00AA846C /* BicycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleViewController.m; sourceTree = "<group>"; };
 		39BB17C61A24531300AA846C /* City-Logo-Tagline.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City-Logo-Tagline.ai"; sourceTree = "<group>"; };
 		39BB17C81A24540500AA846C /* City-Logo-Tagline(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "City-Logo-Tagline(1).png"; sourceTree = "<group>"; };
+		FBF1F6A41A2561E000218704 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF1F6A51A2561E000218704 /* PassKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		39619D581A23E02500AA38DA = {
 			isa = PBXGroup;
 			children = (
+				FBF1F6A41A2561E000218704 /* PassKit.framework */,
 				39619D6E1A23E02600AA38DA /* Main.storyboard */,
 				39619D631A23E02600AA38DA /* City Bicycle Co. */,
 				39619D7D1A23E02600AA38DA /* City Bicycle Co.Tests */,
